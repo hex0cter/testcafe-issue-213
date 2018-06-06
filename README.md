@@ -1,13 +1,14 @@
 # Introduction
-This project demostrates test-cafe issue 213. For more details please visit: https://github.com/hex0cter/testcafe-issue-213
 
-#### Getting Started
+This project demostrates test-cafe issue 2438. For more details please visit: https://github.com/DevExpress/testcafe/issues/2438
+
+## Getting Started
 ```
 yarn
 ```
-to install all the dependencies
+to install all the dependencies.
 
-#### To start the server
+## To start the server
 ```
 yarn start
 ```
@@ -26,7 +27,8 @@ yarn test:firefox
 yarn test:chrome
 ```
 
-### Work around the issue on Firefox
+## Workaround for Firefox
+Start the server without hot reload:
 ```
 yarn start --disableHotReload
 ```
