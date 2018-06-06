@@ -13,7 +13,7 @@ to install all the dependencies.
 yarn start
 ```
 
-## Running tests
+## To run the tests
 
 ### Test with Firefox
 
