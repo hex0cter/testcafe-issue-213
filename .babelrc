@@ -1,0 +1,45 @@
+{
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "syntax-dynamic-import",
+    "react-hot-loader/babel"
+  ],
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": [
+          "last 2 versions",
+          "ie >= 11"
+        ]
+      },
+      "modules": false
+    }],
+    "react"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        ["transform-imports", {
+          "ramda": {
+            "transform": "ramda/es/${member}",
+            "preventFullImport": true
+          }
+        }],
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        "syntax-dynamic-import"
+      ]
+    },
+    "test": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "current"
+          }
+        }],
+        "react"
+      ]
+    }
+  }
+}

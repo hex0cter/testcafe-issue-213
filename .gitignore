@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+results/
+lerna-debug.log
+yarn-error.log
+.eslintcache
+.vscode
+.idea
+.DS_Store
+*.diff.png
