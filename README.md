@@ -8,20 +8,20 @@ yarn
 ```
 to install all the dependencies.
 
-## To start the server
+## Starting the server
 ```
 yarn start
 ```
 
-## To run the tests
+## Running the tests
 
-### Test with Firefox
+### Testing with Firefox
 
 ```
 yarn test:firefox
 ```
 
-### Test with Chrome
+### Testing with Chrome
 
 ```
 yarn test:chrome
