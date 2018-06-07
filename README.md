@@ -15,13 +15,13 @@ yarn start
 
 ## Running the tests
 
-### Testing with Firefox
+### Test with Firefox
 
 ```
 yarn test:firefox
 ```
 
-### Testing with Chrome
+### Test with Chrome
 
 ```
 yarn test:chrome
